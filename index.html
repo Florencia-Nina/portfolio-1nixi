@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#100d1c">
+  <meta name="description" content="Portfolio de 1.nixi: desarrollo web, diseño UX/UI, community management, creación de contenido y cultura geek.">
+
+  <title>1.nixi | Desarrollo, Diseño & Creatividad Digital</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="1.nixi, inicio">
+        <span class="brand-mark">1.</span>nixi<span class="brand-dot">✦</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contenido">Contenido</a>
+        <a class="nav-cta" href="#contacto">Hablemos ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> PORTFOLIO CREATIVO · JUJUY, ARGENTINA</p>
+
+          <h1>
+            Código, diseño<br>
+            y creatividad<span class="gradient-text"> sin límites.</span>
+          </h1>
+
+          <p class="hero-description">
+            Soy Florencia Nina, conocida como <strong>1.nixi</strong>.
+            Desarrollo experiencias web, diseño interfaces y creo contenido
+            que conecta tecnología, comunicación y cultura geek.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Explorar proyectos <span>↗</span></a>
+            <a class="button button-secondary" href="#contacto">Trabajemos juntos</a>
+          </div>
+
+          <div class="hero-tags" aria-label="Especialidades">
+            <span>Desarrollo web</span>
+            <span>UX/UI</span>
+            <span>Community management</span>
+            <span>Contenido</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="portrait-frame">
+            <div class="portrait-inner">
+              <img
+                src="assets/img/profile/nixi_avatar_transparent.png"
+                alt="Retrato de Nikki, creadora de 1.nixi"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+              >
+              <div class="portrait-placeholder" aria-label="Espacio reservado para tu fotografía">
+                <span>1.nixi</span>
+                <small>CREATIVIDAD EN PROCESO</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-top">
+            <span class="floating-icon">✳</span>
+            <span>Ideas que conectan</span>
+          </div>
+
+          <div class="floating-card floating-card-bottom">
+            <span class="status-dot"></span>
+            <span>Dev · Design · Content</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom container">
+        <span>DISEÑO CON INTENCIÓN</span>
+        <span class="hero-bottom-line"></span>
+        <span>TECNOLOGÍA CON PERSONALIDAD</span>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre-mi">
+      <div class="container">
+        <p class="eyebrow">01 / SOBRE MÍ</p>
+
+        <div class="section-heading">
+          <h2>Multidisciplinaria<br>por <span class="gradient-text">naturaleza.</span></h2>
+          <p>
+            Me muevo entre el desarrollo, el diseño y la comunicación.
+            Me interesa tanto construir una experiencia digital como contar
+            una historia capaz de generar comunidad.
+          </p>
+        </div>
+
+        <div class="specialty-grid">
+          <article class="specialty-card">
+            <span class="card-number">01</span>
+            <span class="specialty-icon">⌘</span>
+            <h3>Desarrollo web</h3>
+            <p>Experiencias digitales, sitios web y landing pages pensadas para funcionar y comunicar.</p>
+            <a href="#proyectos">Ver proyectos ↗</a>
+          </article>
+
+          <article class="specialty-card">
+            <span class="card-number">02</span>
+            <span class="specialty-icon">◈</span>
+            <h3>Diseño UX/UI</h3>
+            <p>Interfaces, prototipos y decisiones visuales que buscan una experiencia clara y atractiva.</p>
+            <a href="#proyectos">Ver diseños ↗</a>
+          </article>
+
+          <article class="specialty-card">
+            <span class="card-number">03</span>
+            <span class="specialty-icon">◎</span>
+            <h3>Marketing digital</h3>
+            <p>Comunicación para redes sociales, diseño de piezas y creación de contenido para marcas.</p>
+            <a href="#servicios">Explorar servicios ↗</a>
+          </article>
+
+          <article class="specialty-card">
+            <span class="card-number">04</span>
+            <span class="specialty-icon">✦</span>
+            <h3>Contenido & cultura geek</h3>
+            <p>Videos, edición, cosplay, narración y participación en experiencias y eventos.</p>
+            <a href="#contenido">Ver contenido ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="container">
+        <p class="eyebrow">02 / TRABAJO SELECCIONADO</p>
+
+        <div class="section-heading">
+          <h2>Ideas que pasan<br>a <span class="gradient-text">la realidad.</span></h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <a class="project-image project-coquena" href="https://florencia-nina.github.io/CoquenaQuestOnePage/#jugar" target="_blank" rel="noopener noreferrer" aria-label="Abrir Coquena Quest">
+              <img src="assets/img/projects/CoquenaQuestCaptura.png" alt="Captura del proyecto Coquena Quest" loading="lazy">
+              <span class="image-overlay">Ver proyecto ↗</span>
+            </a>
+            <div class="project-info">
+              <div class="project-meta"><span>DESARROLLO WEB</span><span>01</span></div>
+              <h3>Coquena Quest</h3>
+              <p>Un proyecto web vinculado a una experiencia de videojuego y su universo visual.</p>
+              <a class="text-link" href="https://florencia-nina.github.io/CoquenaQuestOnePage/#jugar" target="_blank" rel="noopener noreferrer">Explorar sitio ↗</a>
+            </div>
+          </article>
+                  <!-- PROYECTO: ENCUENTRA MITOS -->
+        <article class="project-card project-encuentra-mitos">
+            <a
+              class="project-image"
+              href="https://github.com/Florencia-Nina/Encuentra_Mitos"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver el repositorio de Encuentra Mitos en GitHub"
+            >
+              <img
+                src="assets/img/projects/EncuentraMitos.png"
+                alt="Captura del videojuego Encuentra Mitos, inspirado en el folclore jujeño"
+                loading="lazy"
+              >
+              <span class="image-overlay">Ver en GitHub ↗</span>
+            </a>
+  
+            <div class="project-info">
+              <div class="project-meta">
+                <span>GAME DESIGN · NARRATIVA</span>
+                <span>02</span>
+              </div>
+  
+              <h3>Encuentra Mitos</h3>
+  
+              <p>
+                Videojuego narrativo 2D inspirado en el folclore jujeño.
+                Participé en la coordinación del equipo, el diseño narrativo,
+                la elaboración del documento de diseño del juego (GDD)
+                y la organización del trabajo con Scrum.
+              </p>
+  
+              <a
+                class="text-link"
+                href="https://github.com/Florencia-Nina/Encuentra_Mitos"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver repositorio en GitHub ↗
+              </a>
+            </div>
+          </article>
+          <!-- FIN DEL PROYECTO ENCUENTRA MITOS -->
+
+          <article class="project-card">
+            <a class="project-image project-luka" href="https://www.figma.com/design/c2EsK4OwwPmsSesVmSFc18/LUKA-Proto?node-id=3045-4420" target="_blank" rel="noopener noreferrer" aria-label="Abrir proyecto LUKA en Figma">
+              <img src="assets/img/ux-ui/LUKA1.png" alt="Vista previa del diseño LUKA" loading="lazy">
+              <span class="image-overlay">Ver en Figma ↗</span>
+            </a>
+            <div class="project-info">
+              <div class="project-meta"><span>UX/UI DESIGN</span><span>03</span></div>
+              <h3>LUKA</h3>
+              <p>Diseño y prototipo de interfaz. Próximamente, el caso de estudio completo.</p>
+              <a class="text-link" href="https://www.figma.com/design/c2EsK4OwwPmsSesVmSFc18/LUKA-Proto?node-id=3045-4420" target="_blank" rel="noopener noreferrer">Abrir Figma ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-image project-todo" href="https://www.figma.com/design/F8n8fIgnwxJlOaxcmmCndD/To-Do-List?node-id=5-223" target="_blank" rel="noopener noreferrer" aria-label="Abrir To-Do List en Figma">
+              <img src="assets/img/ux-ui/TO-DO-LIST-1.png" alt="Vista previa del diseño To-Do List" loading="lazy">
+              <span class="image-overlay">Ver en Figma ↗</span>
+            </a>
+            <div class="project-info">
+              <div class="project-meta"><span>PRODUCT DESIGN</span><span>03</span></div>
+              <h3>To-Do List</h3>
+              <p>Proyecto de interfaz centrado en la organización de tareas y la experiencia de uso.</p>
+              <a class="text-link" href="https://www.figma.com/design/F8n8fIgnwxJlOaxcmmCndD/To-Do-List?node-id=5-223" target="_blank" rel="noopener noreferrer">Abrir Figma ↗</a>
+            </div>
+          </article>
+                  <!-- PROYECTO: UNITUTOR -->
+        <article class="project-card project-unitutor">
+            <a
+              class="project-image project-unitutor-image"
+              href="https://youtu.be/Lsy2bryVhaM?si=Y6XhUW2TpAsLC1f0"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver el video de presentación de UniTutor en YouTube"
+            >
+              <img
+                src="assets/img/ux-ui/UniTutor.png"
+                alt="Vista previa del diseño de la aplicación UniTutor"
+                loading="lazy"
+              >
+              <span class="image-overlay">Ver video en YouTube ↗</span>
+            </a>
+  
+            <div class="project-info">
+                <div class="project-meta">
+                    <span>UI DESIGN · CANVA · VIDEO EDITING</span>
+                    <span>05</span>
+                  </div>
+  
+              <h3>UniTutor</h3>
+  
+              <p>
+                Proyecto de aplicación educativa en el que participé en el
+                diseño de interfaz UI en Canva, la edición del video del
+                prototipo y parte del código fuente. El desarrollo colaborativo
+                se encuentra en un repositorio privado de GitLab.
+              </p>
+              <a
+                class="text-link"
+                href="https://canva.link/j8gjjgclv7ekl3a"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                Ver diseño en Canva ↗
+            </a>
+  
+              <a
+                class="text-link"
+                href="https://youtu.be/Lsy2bryVhaM?si=Y6XhUW2TpAsLC1f0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver presentación en YouTube ↗
+              </a>
+            </div>
+          </article>
+          <!-- FIN DEL PROYECTO UNITUTOR -->
+          
+        </div>
+
+        <p class="section-note"> Una selección de proyectos de desarrollo, diseño de interfaces y creación audiovisual.</p>
+      </div>
+    </section>
+
+    <section class="section services-section" id="servicios">
+      <div class="container">
+        <p class="eyebrow">03 / QUÉ PUEDO APORTAR</p>
+        <div class="section-heading">
+          <h2>Creatividad con<br><span class="gradient-text">objetivos claros.</span></h2>
+          <p>Soluciones para proyectos, marcas, emprendimientos y eventos.</p>
+        </div>
+
+        <div class="service-list">
+          <article class="service-row">
+            <span class="service-index">01</span>
+            <div><h3>Desarrollo web</h3><p>Landing pages, portfolios y sitios para proyectos o emprendimientos.</p></div>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service-row">
+            <span class="service-index">02</span>
+            <div><h3>Diseño UX/UI</h3><p>Diseño de interfaces, prototipos y organización visual de experiencias.</p></div>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service-row">
+            <span class="service-index">03</span>
+            <div><h3>Community management</h3><p>Contenido para redes, diseño de piezas y comunicación de marca.</p></div>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service-row">
+            <span class="service-index">04</span>
+            <div><h3>Contenido y eventos</h3><p>Creación audiovisual, difusión, cobertura y colaboraciones con marcas y eventos.</p></div>
+            <span class="service-arrow">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="contenido">
+      <div class="container">
+    
+        <p class="eyebrow">04 / CONTENIDO & COMUNIDAD</p>
+    
+        <div class="section-heading">
+          <h2>
+            Historias que<br>
+            <span class="gradient-text">merecen ser vistas.</span>
+          </h2>
+    
+          <p>
+            Cosplay, creación audiovisual y colaboraciones con marcas,
+            eventos y proyectos de la comunidad.
+          </p>
+        </div>
+    
+        <!-- GALERÍA DE COSPLAY -->
+        <div class="cosplay-section">
+    
+          <div class="cosplay-heading">
+            <div>
+              <p class="eyebrow">01 / COSPLAY</p>
+              <h3>Personajes, creatividad y caracterización.</h3>
+            </div>
+    
+            <div class="carousel-controls">
+              <button
+                class="carousel-button"
+                id="cosplay-prev"
+                type="button"
+                aria-label="Foto anterior"
+              >←</button>
+    
+              <button
+                class="carousel-button"
+                id="cosplay-next"
+                type="button"
+                aria-label="Foto siguiente"
+              >→</button>
+            </div>
+          </div>
+    
+          <div
+            class="cosplay-carousel"
+            id="cosplay-carousel"
+            aria-label="Galería de fotografías de cosplay"
+          >
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/_DSC0918.jpg"
+                alt="Fotografía profesional de cosplay"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/_DSC0976.jpg"
+                alt="Fotografía de cosplay"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/_DSC0982.jpg"
+                alt="Fotografía de cosplay"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/_DSC0988.jpg"
+                alt="Fotografía de cosplay"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/_DSC0995.jpg"
+                alt="Fotografía de cosplay"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/AdaRE4.jpeg"
+                alt="Cosplay de Ada Wong en Resident Evil 4"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/AdaWongRE4.jpeg"
+                alt="Caracterización de Ada Wong"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/AdaKillAxeman.png"
+                alt="Cosplay de Ada Wong en una escena de Resident Evil"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/AdayAxeman.jpeg"
+                alt="Fotografía de cosplay de Ada Wong"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/AdayAxeman2.jpeg"
+                alt="Otra fotografía de cosplay de Ada Wong"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/MikasadePie.jpeg"
+                alt="Cosplay de Mikasa"
+                loading="lazy"
+              >
+            </figure>
+    
+            <figure class="cosplay-slide">
+              <img
+                src="assets/img/cosplay/Reze.jpeg"
+                alt="Cosplay de Reze"
+                loading="lazy"
+              >
+            </figure>
+    
+          </div>
+    
+          <p class="carousel-hint">
+            Explorá la galería con las flechas o desplazándote horizontalmente.
+          </p>
+    
+        </div>
+    
+        <!-- COLABORACIONES -->
+        <div class="collaborations-section">
+    
+          <p class="eyebrow">02 / COLABORACIONES</p>
+    
+          <h3>Proyectos y experiencias compartidas.</h3>
+    
+          <div class="collaborations-grid">
+    
+            <!-- CINE ALFA -->
+            <article class="content-card collaboration-card">
+    
+              <a
+                class="content-art content-art-one collaboration-art"
+                href="https://www.instagram.com/reel/Dd02q9rsf97/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver colaboración con Cine Alfa en Instagram"
+              >
+                <span>▶</span>
+                <small>REEL · COSPLAY</small>
+              </a>
+    
+              <div class="content-card-info">
+                <span>01 / COLABORACIÓN</span>
+                <h4>Resident Evil · Ada Wong</h4>
+                <p>
+                  Colaboración de cosplay de Ada Wong en Resident Evil 4
+                  junto a Cine Alfa.
+                </p>
+    
+                <a
+                  class="text-link"
+                  href="https://www.instagram.com/reel/Dd02q9rsf97/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver colaboración ↗
+                </a>
+              </div>
+    
+            </article>
+    
+            <!-- RESTAURANTE RONIN -->
+            <article class="content-card collaboration-card">
+    
+              <a
+                class="content-art content-art-two collaboration-art"
+                href="https://www.instagram.com/reel/DaqBTyYxck0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver colaboración con Restaurante Ronin"
+              >
+                <span>▶</span>
+                <small>REEL · GASTRONOMÍA</small>
+              </a>
+    
+              <div class="content-card-info">
+                <span>02 / COLABORACIÓN</span>
+                <h4>Restaurante Ronin</h4>
+                <p>
+                  Contenido audiovisual y colaboración con un espacio
+                  gastronómico.
+                </p>
+    
+                <a
+                  class="text-link"
+                  href="https://www.instagram.com/reel/DaqBTyYxck0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver colaboración ↗
+                </a>
+              </div>
+    
+            </article>
+    
+            <!-- RANDOM PARTY -->
+            <article class="content-card collaboration-card">
+    
+              <a
+                class="content-art content-art-three collaboration-art"
+                href="https://www.instagram.com/reel/Dal3VCGxpJf/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver colaboración con Random Party"
+              >
+                <span>▶</span>
+                <small>REEL · EVENTOS</small>
+              </a>
+    
+              <div class="content-card-info">
+                <span>03 / COLABORACIÓN</span>
+                <h4>Random Party</h4>
+                <p>
+                  Participación y creación de contenido vinculado
+                  a eventos y cultura geek.
+                </p>
+    
+                <a
+                  class="text-link"
+                  href="https://www.instagram.com/reel/Dal3VCGxpJf/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver colaboración ↗
+                </a>
+              </div>
+    
+            </article>
+    
+            <!-- CHURO JUJUY -->
+            <article class="content-card collaboration-card">
+    
+              <a
+                class="content-art content-art-one collaboration-art"
+                href="https://www.instagram.com/p/DdotdWKkeOC/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver publicación de colaboración con CHURO JUJUY"
+              >
+                <span>↗</span>
+                <small>PUBLICACIÓN · JUJUY</small>
+              </a>
+    
+              <div class="content-card-info">
+                <span>04 / COLABORACIÓN</span>
+                <h4>CHURO JUJUY</h4>
+                <p>
+                  Publicación de una colaboración vinculada a la comunidad
+                  y las experiencias locales.
+                </p>
+    
+                <a
+                  class="text-link"
+                  href="https://www.instagram.com/p/DdotdWKkeOC/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver publicación ↗
+                </a>
+              </div>
+    
+            </article>
+    
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact-section" id="contacto">
+        <div class="container contact-panel">
+  
+          <p class="eyebrow">05 / CONTACTO</p>
+  
+          <h2>
+            ¿Creamos algo<br>
+            <span class="gradient-text">increíble?</span>
+          </h2>
+  
+          <p>
+            ¿Tenés una propuesta, un proyecto o una colaboración en mente?
+            ¡Hablemos!
+          </p>
+  
+          <div class="contact-actions">
+  
+            <!-- EMAIL -->
+            <a
+              class="button button-primary"
+              href="mailto:florencianina26@gmail.com"
+            >
+              ✉ Email
+            </a>
+  
+            <!-- LINKEDIN -->
+            <a
+              class="button button-secondary"
+              href="https://www.linkedin.com/in/florencia-araceli-nina-957817329/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              in LinkedIn ↗
+            </a>
+  
+            <!-- INSTAGRAM -->
+            <a
+              class="button button-secondary"
+              href="https://www.instagram.com/1.nixi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram ↗
+            </a>
+  
+            <!-- GITHUB -->
+            <a
+              class="button button-secondary"
+              href="https://github.com/Florencia-Nina"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+  
+          </div>
+  
+          <p class="contact-note">
+            Desarrollo web · UX/UI · Community management · Creación de contenido
+          </p>
+  
+        </div>
+      </section>
