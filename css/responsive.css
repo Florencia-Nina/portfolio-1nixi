@@ -84,7 +84,7 @@
       background: rgba(16, 13, 28, 0.98);
     }
   
-    .nav-links.is-open {
+    .nav-links.active {
       display: flex;
     }
   
